@@ -1,4 +1,4 @@
-package aula02;
+package aula03;
 import java.util.Scanner;
 
 public class javaIfElse {
