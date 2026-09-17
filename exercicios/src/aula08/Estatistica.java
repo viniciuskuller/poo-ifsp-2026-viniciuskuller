@@ -27,8 +27,10 @@ public class Estatistica {
     }
     public static void main(String[] args){
         double[] valores = {5, 5, 6 ,7, 8, 9, 4, 3 ,2, 2, 4, 5};
-        System.out.println("" + media(valores));
-        System.out.println("" + variancia(valores, media(valores)));
-        System.out.println("" + desvioPadrao(variancia(valores, media(valores))));
+        double media = media(valores);
+        double var = variancia(valores, media(valores));
+        System.out.println("" + media);
+        System.out.println("" + var);
+        System.out.println("" + desvioPadrao(var));
     }
 }
