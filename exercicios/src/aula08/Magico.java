@@ -2,9 +2,12 @@ package aula08;
 
 public class Magico {
     public static boolean isQuadradoMagico(int[][] valores) {
-        if (valores.length != valores[0].length) {
-            return false;
-        }
+        int linhas = valores.length;
+      for(int i = 0; i < linhas; i++){
+          if (valores.length != valores[i].length) {
+              return false;
+          }
+      }
 
         int[] sum = new int[valores.length * 2 + 2];
         for (int i = 0; i < sum.length-1; i++) {
