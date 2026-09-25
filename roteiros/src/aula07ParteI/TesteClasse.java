@@ -1,4 +1,4 @@
-package aula07;
+package aula07ParteI;
 public class TesteClasse {
 
     public static void main(String[] args){

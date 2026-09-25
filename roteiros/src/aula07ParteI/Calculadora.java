@@ -1,4 +1,4 @@
-package aula07;
+package aula07ParteI;
 
 public class Calculadora {
     public int somar(int a, int b){

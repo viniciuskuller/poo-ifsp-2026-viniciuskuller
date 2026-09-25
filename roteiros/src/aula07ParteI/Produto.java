@@ -1,8 +1,13 @@
-package aula07;
+package aula07ParteI;
 
 public class Produto {
     private String nome;
     public double preco;
+
+    public Produto(String nome, double preco){
+        this.nome = nome;
+        this.preco = preco;
+    }
 
     public String getNome(){
     return nome;
